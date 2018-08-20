@@ -27,7 +27,7 @@ if(!file.exists("./data")){
         names(datatrain) <- t(variables$V2)        
         
         
- ##Bined dataframes into one dataframe       
+ ##Bind dataframes into one dataframe       
         df1 <- cbind(idtest, labeltest, datatest)
         df2 <- cbind(idtrain, labeltrain, datatrain)
         df3 <- rbind(df1, df2)
