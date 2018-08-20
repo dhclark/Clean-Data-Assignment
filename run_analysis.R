@@ -50,4 +50,4 @@ if(!file.exists("./data")){
         df6 <- df5 %>% group_by(subjectid, activityid) %>% summarise_all(funs(mean))
         
         df7 <- as.data.frame(df6)
-        
+        write.table(df7,"./data/data_table.txt",row.names = FALSE, sep = "\t")
