@@ -41,4 +41,11 @@ subject_test.txt: A vector of 2947 integers, denoting the ID of the volunteer re
 y_test.txt: A vector of 2947 integers, denoting the ID of the activity related to each of the observations in X_test.txt.
 
 ## Description of processing steps
+Downloads data from website into new directory
+Reads the files above into R
+Appropriately labels the data set with descriptive variable names.
+Merges the training and the test sets to create one data set.
+Uses descriptive activity names to name the activities in the data set
+Extracts only the measurements on the mean and standard deviation for each measurement.
+Creates a tidy data set with the average of each variable for each activity and each subject.
 
